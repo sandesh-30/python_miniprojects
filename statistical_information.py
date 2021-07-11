@@ -1,3 +1,4 @@
+#basic function to find out mean , variance and other statistical information of data
 import numpy as np
 
 def calculate(list):
@@ -29,3 +30,4 @@ def calculate(list):
   calculations = {"mean" : mean , "variance" : variance , "standard deviation" : std_dev , "max" : maximum , "min" : minimum , "sum" : summation }
 
   return calculations
+
